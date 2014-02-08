@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E019888618A6D04100C2FC19 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E019888518A6D04100C2FC19 /* main.c */; };
-		E019888818A6D04100C2FC19 /* Coolness.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E019888718A6D04100C2FC19 /* Coolness.1 */; };
+		E019889B18A6D4F500C2FC19 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E019889A18A6D4F500C2FC19 /* main.c */; };
+		E019889D18A6D4F500C2FC19 /* Coolness.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = E019889C18A6D4F500C2FC19 /* Coolness.1 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E019888018A6D04100C2FC19 /* CopyFiles */ = {
+		E019889518A6D4F500C2FC19 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				E019888818A6D04100C2FC19 /* Coolness.1 in CopyFiles */,
+				E019889D18A6D4F500C2FC19 /* Coolness.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		E019888218A6D04100C2FC19 /* Coolness */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Coolness; sourceTree = BUILT_PRODUCTS_DIR; };
-		E019888518A6D04100C2FC19 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		E019888718A6D04100C2FC19 /* Coolness.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Coolness.1; sourceTree = "<group>"; };
+		E019889718A6D4F500C2FC19 /* Coolness */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Coolness; sourceTree = BUILT_PRODUCTS_DIR; };
+		E019889A18A6D4F500C2FC19 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		E019889C18A6D4F500C2FC19 /* Coolness.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Coolness.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E019887F18A6D04100C2FC19 /* Frameworks */ = {
+		E019889418A6D4F500C2FC19 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,27 +41,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E019887918A6D04100C2FC19 = {
+		E019888E18A6D4F500C2FC19 = {
 			isa = PBXGroup;
 			children = (
-				E019888418A6D04100C2FC19 /* Coolness */,
-				E019888318A6D04100C2FC19 /* Products */,
+				E019889918A6D4F500C2FC19 /* Coolness */,
+				E019889818A6D4F500C2FC19 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E019888318A6D04100C2FC19 /* Products */ = {
+		E019889818A6D4F500C2FC19 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E019888218A6D04100C2FC19 /* Coolness */,
+				E019889718A6D4F500C2FC19 /* Coolness */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E019888418A6D04100C2FC19 /* Coolness */ = {
+		E019889918A6D4F500C2FC19 /* Coolness */ = {
 			isa = PBXGroup;
 			children = (
-				E019888518A6D04100C2FC19 /* main.c */,
-				E019888718A6D04100C2FC19 /* Coolness.1 */,
+				E019889A18A6D4F500C2FC19 /* main.c */,
+				E019889C18A6D4F500C2FC19 /* Coolness.1 */,
 			);
 			path = Coolness;
 			sourceTree = "<group>";
@@ -69,13 +69,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E019888118A6D04100C2FC19 /* Coolness */ = {
+		E019889618A6D4F500C2FC19 /* Coolness */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E019888B18A6D04100C2FC19 /* Build configuration list for PBXNativeTarget "Coolness" */;
+			buildConfigurationList = E01988A018A6D4F500C2FC19 /* Build configuration list for PBXNativeTarget "Coolness" */;
 			buildPhases = (
-				E019887E18A6D04100C2FC19 /* Sources */,
-				E019887F18A6D04100C2FC19 /* Frameworks */,
-				E019888018A6D04100C2FC19 /* CopyFiles */,
+				E019889318A6D4F500C2FC19 /* Sources */,
+				E019889418A6D4F500C2FC19 /* Frameworks */,
+				E019889518A6D4F500C2FC19 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -83,48 +83,48 @@
 			);
 			name = Coolness;
 			productName = Coolness;
-			productReference = E019888218A6D04100C2FC19 /* Coolness */;
+			productReference = E019889718A6D4F500C2FC19 /* Coolness */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E019887A18A6D04100C2FC19 /* Project object */ = {
+		E019888F18A6D4F500C2FC19 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
-				ORGANIZATIONNAME = com.chaeokay;
+				ORGANIZATIONNAME = chaeokay.com;
 			};
-			buildConfigurationList = E019887D18A6D04100C2FC19 /* Build configuration list for PBXProject "Coolness" */;
+			buildConfigurationList = E019889218A6D4F500C2FC19 /* Build configuration list for PBXProject "Coolness" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = E019887918A6D04100C2FC19;
-			productRefGroup = E019888318A6D04100C2FC19 /* Products */;
+			mainGroup = E019888E18A6D4F500C2FC19;
+			productRefGroup = E019889818A6D4F500C2FC19 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E019888118A6D04100C2FC19 /* Coolness */,
+				E019889618A6D4F500C2FC19 /* Coolness */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E019887E18A6D04100C2FC19 /* Sources */ = {
+		E019889318A6D4F500C2FC19 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E019888618A6D04100C2FC19 /* main.c in Sources */,
+				E019889B18A6D4F500C2FC19 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		E019888918A6D04100C2FC19 /* Debug */ = {
+		E019889E18A6D4F500C2FC19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -161,7 +161,7 @@
 			};
 			name = Debug;
 		};
-		E019888A18A6D04100C2FC19 /* Release */ = {
+		E019889F18A6D4F500C2FC19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -192,14 +192,14 @@
 			};
 			name = Release;
 		};
-		E019888C18A6D04100C2FC19 /* Debug */ = {
+		E01988A118A6D4F500C2FC19 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E019888D18A6D04100C2FC19 /* Release */ = {
+		E01988A218A6D4F500C2FC19 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -209,24 +209,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E019887D18A6D04100C2FC19 /* Build configuration list for PBXProject "Coolness" */ = {
+		E019889218A6D4F500C2FC19 /* Build configuration list for PBXProject "Coolness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E019888918A6D04100C2FC19 /* Debug */,
-				E019888A18A6D04100C2FC19 /* Release */,
+				E019889E18A6D4F500C2FC19 /* Debug */,
+				E019889F18A6D4F500C2FC19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E019888B18A6D04100C2FC19 /* Build configuration list for PBXNativeTarget "Coolness" */ = {
+		E01988A018A6D4F500C2FC19 /* Build configuration list for PBXNativeTarget "Coolness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E019888C18A6D04100C2FC19 /* Debug */,
-				E019888D18A6D04100C2FC19 /* Release */,
+				E01988A118A6D4F500C2FC19 /* Debug */,
+				E01988A218A6D4F500C2FC19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E019887A18A6D04100C2FC19 /* Project object */;
+	rootObject = E019888F18A6D4F500C2FC19 /* Project object */;
 }
