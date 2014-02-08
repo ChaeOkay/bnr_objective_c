@@ -10,23 +10,7 @@
 
 int main(int argc, const char * argv[])
 {
-    int x = 255;
-    printf("x is %d.\n", x);
-    printf("In octal, x is %o.\n", x);
-    printf("In hexadecimal, x is %x.\n\n", x);
-    
-    long longX = 255;
-    printf("longX is %ld.\n", longX);
-    printf("In octal, longX is %lo.\n", longX);
-    printf("In hexidecimal, longX is %lx.\n\n", longX);
-    
-    unsigned long unsignedLongX = 255;
-    printf("unsignedLongX is %lu.\n", unsignedLongX);
-    
-    // Octal and hex already assumed the number was unsigned
-    printf("In octal, unsignedLongX is %lo.\n", unsignedLongX);
-    printf("In hexidecimal, unsignedLongX is %lx.\n\n", unsignedLongX);
-    
+    printf("3 * 3 + 5 * 2 = %d\n", 3 * 3 + 5 * 2);
     return 0;
 }
 
