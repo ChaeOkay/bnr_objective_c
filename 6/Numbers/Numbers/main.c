@@ -7,12 +7,11 @@
 //
 
 #include <stdio.h>
+#include <math.h>
 
 int main(int argc, const char * argv[])
 {
-    double y = 12345.6789;
-    printf("y is %.2f\n", y);
-    printf("y is %.2e\n", y);
+    printf("The sine of 1 radian, rounded to three decimal places is %.3f\n", sinf(1));
     
     return 0;
 }
