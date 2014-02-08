@@ -33,6 +33,17 @@ int main(int argc, const char * argv[])
     } else {
         printf("myPointer is NULL.\n");
     }
+    
+    printf("A NULL value stored at the myPointer is %zu bytes\n", sizeof(*myPointer));
+    
+    // a short is 16 bits
+    // unsigned short is 2^16 = 65536
+    //  0 is a also a number, so the largest number is 65535
+    //  smallest number is 0
+    
+    // signed short has 1 bit for the sign 2^15 = 32768
+    //  0 is also a number, so the largest number is 32767
+    //  smallest number is -32768
 
     return 0;
 }
