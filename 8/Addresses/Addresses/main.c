@@ -13,7 +13,8 @@ int main(int argc, const char * argv[])
     int i = 17;
     int *addressOfI = &i;
     printf("i stores its value at %p\n", addressOfI);
-    
+    printf("this function starts at %p\n", main);
+
     return 0;
 }
 
