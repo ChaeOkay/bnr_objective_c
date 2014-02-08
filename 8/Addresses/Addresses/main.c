@@ -24,6 +24,15 @@ int main(int argc, const char * argv[])
     
     printf("Another way to write an int is %zu bytes\n", sizeof(i));
     printf("Another way to write a pointer is %zu bytes\n", sizeof(addressOfI));
+    
+    float *myPointer;
+    myPointer = NULL; // NULL is zero
+    
+    if (myPointer) {
+        printf("myPointer is pointing to something.\n");
+    } else {
+        printf("myPointer is NULL.\n");
+    }
 
     return 0;
 }
