@@ -9,18 +9,23 @@
 #include <stdio.h>
 
 // Here is the declaration of the struct Person
-struct Person {
+typedef struct {
     float heightInMeters;
     int weightInKilos;
-};
+} Person;
+
+float bodyMassINdex(Person p)
+{
+    return p.weightInKilos / (p.heightInMeters * p.heightInMeters);
+}
 
 int main(int argc, const char * argv[])
 {
-    struct Person person;
+    Person person;
     person.weightInKilos = 96;
     person.heightInMeters = 1.8;
-    printf("person weighs %i kilograms\n", person.weightInKilos);
-    printf("person is %.2f meters tall\n", person.heightInMeters);
+    float bmi = bodyMassINdex(person);
+    printf("person has a BMI of %.2f\n", bmi);
     
     return 0;
 }
