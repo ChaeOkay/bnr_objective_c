@@ -13,25 +13,30 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // Read in a file as a huge string (ignoring the possibility of an error)
-        NSString *nameString
-        = [NSString stringWithContentsOfFile:@"/usr/share/dict/propernames" encoding:NSUTF8StringEncoding error:NULL];
+        // Read words
+        NSString *wordString
+        = [NSString stringWithContentsOfFile:@"/usr/share/dict/words" encoding:NSUTF8StringEncoding error:NULL];
+
+        // Break into array of strings
+        NSArray *words = [wordString componentsSeparatedByString:@"\n"];
         
-        // Break it into an array of strings
-        NSArray *names = [nameString componentsSeparatedByString:@"\n"];
+        NSInteger count = 0;
         
-        // Go through the array one string at a time
-        for (NSString *n in names){
+        // Iterate through array - faste enumeration
+        for (NSString *w in words){
             
-            // Look for the string "aa" in a case-insensitive manner
-            NSRange r = [n rangeOfString:@"AA" options:NSCaseInsensitiveSearch];
+            // Identify the next word
+            NSInteger next = [words indexOfObject:w] + 1;
+            NSString *nextWord = [words objectAtIndex:next];
             
-            // Was it found?
-            if (r.location != NSNotFound) {
-                NSLog(@"%@", n);
+            // Compare
+            if ([w caseInsensitiveCompare:nextWord] == NSOrderedSame) {
+                count++;
+                NSLog(@"%@ : %@", w, nextWord);
             }
         }
         
+        NSLog(@"There are %lu matches", count);
     }
     return 0;
 }
