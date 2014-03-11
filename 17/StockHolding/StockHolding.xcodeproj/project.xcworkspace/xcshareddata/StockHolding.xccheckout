@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>47B695F2-08C5-4358-B39D-98A396AE70C4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>StockHolding</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7BA85CEC-9ADD-4AB4-99F8-231964BF78CF</key>
+		<string>ssh://github.com/ChaeOkay/bnr_objective_c.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>17/StockHolding/StockHolding.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7BA85CEC-9ADD-4AB4-99F8-231964BF78CF</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ChaeOkay/bnr_objective_c.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7BA85CEC-9ADD-4AB4-99F8-231964BF78CF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7BA85CEC-9ADD-4AB4-99F8-231964BF78CF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bnr_objective_c</string>
+		</dict>
+	</array>
+</dict>
+</plist>
